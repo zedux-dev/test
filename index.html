@@ -1,0 +1,58 @@
+<style>
+    body {
+        margin: 0px;
+        font-family: sans-serif;
+    }
+
+    .mobile-menu {
+        background-color: #c01a1a;
+        width: 100%;
+        height: 100%;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .close-container {
+        display: flex;
+        width: calc(100% - 50px);
+        padding: 25px 0px;
+        justify-content: flex-end;
+    }
+
+    .menu-container {
+        list-style-type: none;
+        color: white;
+        padding: 0px;
+        width: calc(100% - 50px);
+        height: 100%;
+    }
+
+    li {
+        width: 100%;
+        height: calc((100% - 16px) / 9);
+        font-size: 50px;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        border-bottom: 4px solid rgba(255, 255, 255, 0.3);
+    }
+</style>
+
+<div class="mobile-menu">
+    <div class="close-container">
+        <img src="https://www.ricosfood.it/res/img/xchiudi.png" height="100" width="100" alt="Chiudi il menu">
+    </div>
+
+    <ul class="menu-container">
+        <li><p>Home</p></li>
+        <li><p>i Panini</p></li>
+        <li><p>Grill</p></li>
+        <li><p>per i bambini</p></li>
+        <li><p>Le birre</p></li>
+        <li><p>Takeaway</p></li>
+        <li><p>Rico's</p></li>
+        <li><p>Dove</p></li>
+        <li><p>04348888888</p></li>
+    </ul>
+</div>
